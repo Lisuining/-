@@ -1,0 +1,121 @@
+/* pages/order/order.wxss */
+@import "/pages/bottom/bottom";
+
+.scroll{
+  background-color: #EFEFEF;
+  width:100%;
+  height:100%;
+  left:0rpx;
+  right:0rpx;
+  top:0rpx;
+  position:absolute
+}
+
+.box{
+  width:100%;
+  height:25%;
+  margin-top: 5rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.first{
+  width:100%;
+  height:20%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+}
+
+.text{
+  font-size: 30rpx;
+}
+
+.arrow{
+  margin-left: 3%;
+}
+
+.zhuangtai{
+  margin-left: 30%;
+}
+
+.gray{
+  width:96%;
+  height:5rpx;
+  margin-left: 2%;
+  margin-top: 10rpx;
+  background-color: gray;
+}
+
+.second{
+  width:100%;
+  height:50%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+}
+
+.photo{
+  margin-left: 7%;
+  margin-top: 40rpx;
+  width:18%;
+  height:60%;
+}
+
+.news{
+  margin-left: 5%;
+  margin-top: 40rpx;
+  width:70%;
+  height:100%;
+}
+
+.name{
+  font-size: 40rpx;
+}
+
+.third{
+  width:100%;
+  height:50%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+}
+
+.shuxing{
+  color:red;
+  font-size: 35rpx;
+}
+
+.txt{
+  margin-left: 10%;
+}
+
+.fourth{
+  width:100%;
+  height:20%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+}
+
+.button{
+  width:50%;
+  height:80%;
+  margin-left: 4%;
+  font-size: 35rpx;
+  margin-top: 0.7%;
+  margin-left: 7%;
+  background-color:#87CEEB;
+  border-radius: 15rpx;
+}
+
+.money{
+  margin-left: 4%;
+  width:15%;
+  height:100%;
+}
+
+.again{
+  margin-left: 35%;
+}
