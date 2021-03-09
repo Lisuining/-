@@ -1,0 +1,32 @@
+<!--pages/order/order.wxml-->
+<scroll-view class='scroll' scroll-y='true'>
+	<block wx:for="{{list}}" wx:for-item="itemname" wx:for-index="id">
+		<view class='box'>
+			<view class='first' bindtap='dingdan'>
+				<view><text class='text'>订单号：</text></view>
+				<view><text class='text'>{{itemname.number}}</text></view>
+				<view class='zhuangtai'><text class='text'>{{itemname.condition}}</text></view>
+				<view class='arrow'><text class='text'>>></text></view>
+			</view>
+			<view class='gray'></view>
+			<view class='second'>
+				<image class='photo' src='{{itemname.url}}'></image>
+				<view class='news'>
+					<view><text class='name'>{{itemname.name}}</text></view>
+					<view class='third'>
+						<view><text class='shuxing'>{{item.count}}</text></view>
+						<view class='txt'><text class='shuxing'>{{itemname.money}}</text></view>
+						<view class='txt'><text class='shuxing'>{{itemname.way}}</text></view>
+					</view>
+				</view>
+			</view>
+			<view class='gray'></view>
+			<view class='fourth'>
+				<view class='money'><text class='txt'>合计:</text></view>
+				<view class='money'><text class='txt'>{{itemname.allmoney}}</text></view>
+				<view class='button' bindtap='click'><text class="again">再来一单</text></view>
+			</view>
+		</view>
+	</block>
+</scroll-view>
+<include src="/pages/bottom/bottom" />
