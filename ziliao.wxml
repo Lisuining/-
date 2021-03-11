@@ -1,0 +1,13 @@
+<!--pages/ziliao/ziliao.wxml-->
+<view class='class'>
+<view class='gray'><text>头像</text></view>
+<image class= 'touxiang' src='/image/头像.png'></image>
+</view>
+<view class='class'>
+<view class='gray'><text>账号</text></view>
+<text class= 'black'>2018211XXX</text>
+</view>
+<view class='class'>
+<view class='gray'><text>手机号</text></view>
+<text class= 'black'>157****1109</text>
+</view>
