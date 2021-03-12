@@ -1,0 +1,17 @@
+<!--pages/submit/submit.wxml-->
+<view class='fenge'></view>
+<view class='first'><text>已取消</text></view>
+<view class='fenge'></view>
+<view class='second'>
+<text class='text'>打包</text>
+<text class='text'>堂食</text>
+</view>
+<view class='fenge'></view>
+<scroll-view>
+<view class='box'>
+<image src='/image/鲜美.jpeg'></image>
+<view><text>鲜美羊肉鱼丝</text></view>
+<view><text>X1</text></view>
+<view><text>￥20.0</text></view>
+</view>
+</scroll-view>
