@@ -1,0 +1,5 @@
+<!--pages/opinion/opinion.wxml-->
+<view class='textarea'>
+<textarea placeholder="请输入反馈意见" placeholder-style="color: #000000; font-size:38rpx" class='textinput' maxlength='-1' bindinput='bindtextareablur'></textarea>
+</view>
+<view id='btn' class='click' bindtap='send'>发送</view>
