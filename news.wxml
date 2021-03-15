@@ -1,0 +1,16 @@
+<!--pages/news/news.wxml-->
+<scroll-view class='scbg' scroll-y='true'>
+<block wx:for="{{list}}" wx:for-item="itemname" wx:for-index='id'>
+	<view class='box'>
+    <image class='touxiang' src='{{itemname.face_url}}'></image>
+		<view class='first'>
+    <view class='new'>
+    <view class='name'><text>{{itemname.username}}</text></view>
+    <view class='time'><text class='tim'>{{itemname.send_time}}</text></view>
+    </view>
+    <view class='content'><text class='con'>{{itemname.content}}</text></view>
+		</view>
+	</view>
+</block>
+</scroll-view>
+<include src="/pages/bottom/bottom" />
