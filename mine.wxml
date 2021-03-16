@@ -1,0 +1,23 @@
+<!--pages/mine/mine.wxml-->
+<view class='details'>
+	<image class='touxiang' src='/image/头像.png'></image>
+	<view class='person'>
+		<view class='id'><text class='showid'>2018211XXX</text></view>
+		<view class='number'>
+			<image class='mobile' src='/image/手机.png'></image>
+			<text class='phone'>138****3089</text>
+		</view>
+	</view>
+</view>
+<image class='fenge' src='/image/横线.png'></image>
+<view class='information'>
+	<text class='intext'>我的资料</text>
+	<image class='rightarrow' bindtap='new' src='/image/rightarrow.png'></image>
+</view>
+<view><image class='fenge' src='/image/横线.png'></image></view>
+<view class='information'>
+	<text class='intext'>意见反馈</text>
+	<image class='rightarrow' bindtap='opinion' src='/image/rightarrow.png'></image>
+</view>
+<image class='fenge' src='/image/横线.png'></image>
+<include src="/pages/bottom/bottom" />
