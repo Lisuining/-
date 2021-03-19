@@ -1,0 +1,9 @@
+<!--pages/load/load.wxml-->
+
+<view wx:if="{{canIUse}}" class='button'>
+<view class='text'>\t\t欢迎使用三餐邮你小程序，我们需要一些您的公开信息，包括微信昵称、头像等。请放心，我们会妥善保管您的信息~</view>
+<view class='med'>-----------------------------</view>
+<button class='but' open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+</view>
+
+<view wx:else>请升级微信版本</view>
