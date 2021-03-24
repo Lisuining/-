@@ -1,0 +1,17 @@
+<!--pages/enroll/enroll.wxml-->
+<view class='background'>
+<view class='first'>
+<input id='number' placeholder="请输入手机号" placeholder-class="plas" class='inputs' type='number' bindinput='numberinput'></input>
+</view>
+<view class='second'>
+<input id='code' placeholder="请输入短信验证码" placeholder-class="plas" class='inputs' type='number' bindinput='codeinput'></input>
+</view>
+<view class='second'>
+<input id='password' placeholder="请输入6~20位登录密码" placeholder-class="plas" class='inputs' type='password' bindinput='passwordinput'></input>
+</view>
+<view class='second'>
+<input id='passwordack' placeholder="请再次输入密码" placeholder-class="plas" class='inputs' type='password' bindinput='passwordinputack'></input> 
+</view>
+<view id='button' class='click' bindtap='regist'>注册</view>
+<view class='cha' bindtap="signin"><text class='note'>已有账户，点我登录</text></view>
+</view>
