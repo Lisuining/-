@@ -1,0 +1,15 @@
+<!--pages/bottom/bottom.wxml-->
+<view class='bottomrow'>
+<view class='bottomtab' bindtap='gohome'>
+<text class='bottomtabtext'>首页</text>
+</view>
+<view class='bottomtab'  bindtap='goorder'>
+<text class='bottomtabtext'>订单</text>
+</view>
+<view class='bottomtab' bindtap='gonews'>
+<text class='bottomtabtext'>消息</text>
+</view>
+<view class='bottomtab' bindtap='gomine'>
+<text class='bottomtabtext'>我的</text>
+</view>
+</view>
